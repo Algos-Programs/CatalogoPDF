@@ -1,0 +1,76 @@
+/* 
+  Localization.strings
+  PSPDFKit
+ 
+  Copyright (c) 2012 Peter Steinberger. All rights reserved.
+*/
+
+// general
+"Close" = "Fermer";
+"Cancel" = "Annuler";
+"Open" = "Ouvrir";
+"Untitled" = "Untitled";
+"File Not Found" = "File Not Found";
+"Unnamed PDF" = "Unnamed PDF";
+"Table Of Contents" = "Table Of Contents";
+"Go to %@" = "%@";
+"Page %d" = "Page %d";
+
+// toolbar
+"Outline" = "Plan";
+"Search" = "Rechercher";
+"Email" = "E-mail";
+"Open in..." = "Ouvrir dans…";
+"No Applications found" = "There are no applications installed that can open PDF documents.";
+"Print" = "Imprimer";
+
+// page
+"%d of %d" = "%d sur %d";
+"%@ (%d of %d)" = "%@ (%d sur %d)";
+
+// search
+"Page %d" = "Page %d";
+"Search Document" = "Recherche";
+"No matches found" = "Aucun résultat";
+"One match found" = "Un résultat trouvé";
+"%d matches found" = "%d résultats trouvés";
+"Searching..." = "Recherche…";
+"Search Completed" = "Recherche terminée";
+"Search Cancelled" = "Recherche annulée";
+
+// inline browser
+"Copy Link" = "Copier le lien";
+"Open in Safari" = "Ouvrir dans Safari";
+"Mail Link to this Page" = "Envoyer cette adresse URL";
+
+// annotations
+"Remove" = "Remove";
+"Edit" = "Edit";
+"Type..." = "Type…";
+"Colors..." = "Colors…";
+"Text..." = "Text…";
+"Yellow" = "Yellow";
+"Green" = "Green";
+"Blue" = "Blue";
+"Red" = "Red";
+"Pink" = "Pink";
+"Black" = "Black";
+"Define" = "Define";
+"Wikipedia" = "Wikipedia";
+"Copy" = "Copy";
+"Highlight" = "Highlight";
+"Underline" = "Underline";
+"Strikeout" = "Strike Out";
+"Sketch" = "Sketch";
+"New Note" = "New Note";
+"Note" = "Note";
+"Text" = "Text";
+"Drawing Color" = "Drawing Color";
+"Free Text" = "Free Text";
+"Delete Note" = "Delete Note";
+"Delete Highlight" = "Delete Highlight";
+"Delete Free Text" = "Delete Free Text";
+
+// voiceover accessibility
+"Page" = "Page";
+"Grid" = "Grid";

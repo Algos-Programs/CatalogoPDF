@@ -24,6 +24,7 @@
 		FF87C59B16171BA100C11C65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF87C57316171BA100C11C65 /* Foundation.framework */; };
 		FF87C5A316171BA200C11C65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF87C5A116171BA100C11C65 /* InfoPlist.strings */; };
 		FF87C5A616171BA200C11C65 /* CatalogoPDFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF87C5A516171BA200C11C65 /* CatalogoPDFTests.m */; };
+		FF87C5B216171C2A00C11C65 /* PSPDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF87C5B116171C2A00C11C65 /* PSPDFKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		FF87C5A216171BA200C11C65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FF87C5A416171BA200C11C65 /* CatalogoPDFTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatalogoPDFTests.h; sourceTree = "<group>"; };
 		FF87C5A516171BA200C11C65 /* CatalogoPDFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatalogoPDFTests.m; sourceTree = "<group>"; };
+		FF87C5B116171C2A00C11C65 /* PSPDFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PSPDFKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				FF87C57216171BA100C11C65 /* UIKit.framework in Frameworks */,
 				FF87C57416171BA100C11C65 /* Foundation.framework in Frameworks */,
 				FF87C57616171BA100C11C65 /* CoreGraphics.framework in Frameworks */,
+				FF87C5B216171C2A00C11C65 /* PSPDFKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +111,7 @@
 		FF87C57016171BA100C11C65 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FF87C5AF16171C1300C11C65 /* PDF */,
 				FF87C57116171BA100C11C65 /* UIKit.framework */,
 				FF87C57316171BA100C11C65 /* Foundation.framework */,
 				FF87C57516171BA100C11C65 /* CoreGraphics.framework */,
@@ -161,6 +165,14 @@
 				FF87C5A116171BA100C11C65 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF87C5AF16171C1300C11C65 /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				FF87C5B116171C2A00C11C65 /* PSPDFKit.framework */,
+			);
+			name = PDF;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +229,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				de,
+				fr,
 			);
 			mainGroup = FF87C56216171BA100C11C65;
 			productRefGroup = FF87C56E16171BA100C11C65 /* Products */;
@@ -388,6 +402,10 @@
 		FF87C5AA16171BA200C11C65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CatalogoPDF/CatalogoPDF-Prefix.pch";
 				INFOPLIST_FILE = "CatalogoPDF/CatalogoPDF-Info.plist";
@@ -399,6 +417,10 @@
 		FF87C5AB16171BA200C11C65 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CatalogoPDF/CatalogoPDF-Prefix.pch";
 				INFOPLIST_FILE = "CatalogoPDF/CatalogoPDF-Info.plist";
